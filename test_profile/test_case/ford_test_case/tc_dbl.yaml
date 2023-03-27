@@ -1,0 +1,44 @@
+dbl_test_case:
+    -
+        #
+        testCaseID: systss-8032
+        toCoverID: systs-8032/10051/10048
+        dbl_move_ang: 4
+        class_lvl_req: 0
+        hb_request: 0
+    -
+        #
+        testCaseID: systss-8033
+        toCoverID: systs-8033/10052/10049
+        dbl_move_ang: -4
+        class_lvl_req: 0
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-10052
+        toCoverID: systs-8032/10051/10048
+        dbl_move_ang: 10
+        class_lvl_req: 1
+        hb_request: 0
+
+    - #
+        testCaseID: systss-10052
+        toCoverID: systs-8033/10052/10049
+        dbl_move_ang: -10
+        class_lvl_req: 1
+        hb_request: 0
+
+    - #
+        testCaseID: systss-10052
+        toCoverID: systs-8032/10051/10048
+        dbl_move_ang: 10
+        class_lvl_req: 1
+        hb_request: 1
+
+    - #
+        testCaseID: systss-10052
+        toCoverID: systs-8033/10052/10049
+        dbl_move_ang: -10
+        class_lvl_req: 1
+        hb_request: 1

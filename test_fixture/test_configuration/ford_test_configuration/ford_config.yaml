@@ -1,0 +1,197 @@
+#This file is used to configure the ford related parameters.
+#@Author: Siwei.Lu
+#@Date: 2023.2.15
+
+
+dataset:
+  variant: 12B
+
+#  path: D:\PycharmProjects\01_pytest\test_fixture\test_configuration\ford_test_configuration\dataset\KBD_LDM12B_VB009_B080.xlsm # Absolute Path！
+  path: D:\PycharmProjects\01_pytest\test_fixture\test_configuration\ford_test_configuration\dataset\KBD_LDM12C_VC001_20221125.xlsm
+
+
+  bin:
+    bin_range: # [row_start, row_end, column_start, column_end]
+      ch1: [4, 10, 3, 3]
+      ch2: [15, 21, 3, 3]
+      ch3: [26, 32, 3, 3]
+      ch4: [37, 43, 3, 3]
+      ch5: [48, 54, 3, 3]
+      ch6: [59, 65, 3, 3]
+      ch7: [70, 76, 3, 3]
+      ch8: [81, 87, 3, 3]
+      ch9: [92, 98, 3, 3]
+      ch10: [103, 109, 3, 3]
+      ch11: [114, 120, 3, 3]
+      ch12: [125, 131, 3, 3]
+    bin_current:
+      ch1: [4, 10 ,10 ,10]
+      ch2: [15, 21, 10, 10]
+      ch3: [26, 32, 10, 10]
+      ch4: [37, 43, 10, 10]
+      ch5: [48, 54, 10, 10]
+      ch6: [59, 65, 10, 10]
+      ch7: [70, 76, 10, 10]
+      ch8: [81, 87, 10, 10]
+      ch9: [92, 98, 10, 10]
+      ch10: [103, 109, 10, 10]
+      ch11: [114, 120, 10, 10]
+      ch12: [125, 131, 10, 10]
+    bin_analog_input:
+      ch1: [1, 1, 5, 5]
+      ch2: [12, 12, 5, 5]
+      ch3: [23, 23, 5, 5]
+      ch4: [34, 34, 5, 5]
+      ch5: [45, 45, 5, 5]
+      ch6: [56, 56, 5, 5]
+      ch7: [67, 67, 5, 5]
+      ch8: [78, 78, 5, 5]
+      ch9: [89, 89, 5, 5]
+      ch10: [100, 100, 5, 5]
+      ch11: [111, 111, 5, 5]
+      ch12: [122, 122, 5, 5]
+
+  drl_ti_aux_bending:
+    drl/po:
+      drl1_intensity: [3, 3, 2, 2]
+      drl2_intensity: [4, 4, 2, 2]
+      drl3_intensity: [5, 5, 2, 2 ]
+      drl4_intensity: [6, 6, 2, 2 ]
+
+      po1_intensity: [3, 3, 7, 7]
+      po2_intensity: [4, 4, 7, 7]
+      po3_intensity: [5, 5, 7, 7]
+      po4_intensity: [6, 6, 7, 7]
+
+      po_behavior_ti_active: [14, 14, 2, 2]
+      po1_as_ti_int: [15, 15, 2, 2]
+      po2_as_ti_int: [16, 16, 2, 2]
+      po3_as_ti_int: [17, 17, 2, 2]
+      po4_as_ti_int: [18, 18, 2, 2]
+
+    ti:
+      chseq_ti_animation: [ 14, 14, 11, 11 ]
+      chseq1_time: [ 15, 15, 11, 11 ]
+      chseq2_time: [ 16, 16, 11, 11 ]
+      chseq3_time: [ 17, 17, 11, 11 ]
+      ti_deactv_brght: [ 17, 17, 7, 7 ]
+      turn_deactv_pos_cfg: [ 18, 18, 7, 7 ]
+
+    aux:
+      aux1_drl_int: [3, 3, 4, 4]
+      aux2_drl_int: [4, 4, 4, 4]
+      aux3_drl_int: [5, 5, 4, 4]
+      aux4_drl_int: [6, 6, 4, 4]
+
+      aux1_po_int: [3, 3, 9, 9]
+      aux2_po_int: [4, 4, 9, 9]
+      aux3_po_int: [5, 5, 9, 9]
+      aux4_po_int: [6, 6, 9, 9]
+
+
+  e2e_cfg: [17, 17, 3, 3]
+
+  ntc:
+    TD:
+      CH1: [5, 10, 14, 14]
+      CH2: [16, 21, 14, 14]
+      CH3: [27, 32, 14, 14]
+      CH4: [38, 43, 14, 14]
+      CH5: [49, 54, 14, 14]
+      CH6: [60, 65, 14, 14]
+      CH7: [71, 76, 14, 14]
+      CH8: [82, 87, 14, 14]
+      CH9: [93, 98, 14, 14]
+      CH10: [104, 109, 14, 14]
+      CH11: [115, 120, 14, 14]
+      CH12: [126, 131, 14, 14]
+    BD:
+      CH1: [ 5, 10, 16, 16 ]
+      CH2: [ 16, 21, 16, 16 ]
+      CH3: [ 27, 32, 16, 16 ]
+      CH4: [ 38, 43, 16, 16 ]
+      CH5: [ 49, 54, 16, 16 ]
+      CH6: [ 60, 65, 16, 16 ]
+      CH7: [ 71, 76, 16, 16 ]
+      CH8: [ 82, 87, 16, 16 ]
+      CH9: [ 93, 98, 16, 16 ]
+      CH10: [ 104, 109, 16, 16 ]
+      CH11: [ 115, 120, 16, 16 ]
+      CH12: [ 126, 131, 16, 16 ]
+    NTC_source:
+      CH1: [1, 1, 15, 15]
+      CH2: [12, 12, 15, 15]
+      CH3: [23, 23, 15, 15]
+      CH4: [34, 34, 15, 15]
+      CH5: [45, 45, 15, 15]
+      CH6: [56, 56, 15, 15]
+      CH7: [67, 67, 15, 15]
+      CH8: [78, 78, 15, 15]
+      CH9: [89, 89, 15, 15]
+      CH10: [100, 100, 15, 15]
+      CH11: [111, 111, 15, 15]
+      CH12: [122, 122, 15, 15]
+
+
+canoe_tools: # 不填路径就不会生成，不要把key删掉
+  cdd_path:
+    - D:\01_Ford\03_CANoe\CDD_FNV3\B080\DSP2TA-13B626-AA.cdd
+    - D:\01_Ford\03_CANoe\CDD_FNV3\B080\DSP2TA-13B626-BA.cdd
+    - D:\01_Ford\03_CANoe\CDD_FNV3\B080\DSP2TA-13B626-CA.cdd
+    - D:\01_Ford\03_CANoe\CDD_FNV3\B080\DSP2TA-13B626-DA.cdd
+    - D:\01_Ford\03_CANoe\CDD\CDD--0153\DSNL7A-13B626-CG.cdd
+    - D:\01_Ford\03_CANoe\CDD\CDD--0153\DSNL7A-13B626-DG.cdd
+    - D:\01_Ford\03_CANoe\CDD_12A\A057\DSP3HA-13B626-AD.cdd
+    - D:\01_Ford\03_CANoe\CDD_12A\A057\DSP3HA-13B626-BD.cdd
+    - D:\01_Ford\03_CANoe\CDD-12C\CDD8\DSP3HA-13B626-CA.cdd
+    - D:\01_Ford\03_CANoe\CDD-12C\CDD8\DSP3HA-13B626-DA.cdd
+  dbc_msg_path:
+    - D:\01_Ford\03_CANoe\CDD_FNV3\B080\Y2023_FNV3_FDCAN_HCM_v21.LDCMCD.dbc
+    - D:\01_Ford\03_CANoe\CDD\CDD--0153\Y2022_H2_HSCAN_HCM_v21.02_Working.dbc
+    - D:\01_Ford\03_CANoe\CDD_12A\A057\Y2022_H2_HSCAN_HCM_v21.02_Working.dbc
+    - D:\01_Ford\03_CANoe\CDD-12C\C009\Y2022_H2_HSCAN_HCM_v21.02_Working.dbc
+
+  dbc_env_path:
+    - D:\01_Ford\03_CANoe\canoe_12B\LDM12B_CANFD_Bus_Simulation_V05_CANOE11.0-0.3\DBC\EnvironmentVariables.dbc
+    - D:\01_Ford\03_CANoe\canoe_12B\LDM12B_CANFD_Bus_Simulation_V05_CANOE11.0-0.3\DBC\E2E.dbc
+    - D:\01_Ford\03_CANoe\canoe_12C\LDM_12_Bus_Simulation_PLUS10.0_PH3A-13B675-AA007\DBC\EnvironmentVariables.dbc
+  dbc_relay_path: D:\PycharmProjects\01_pytest\test_fixture\test_configuration\CAN_control _Relay_20221128.dbc # 继电器DBC
+  pdx_path: D:\003_PythonProject\AutoTest\TestFile\CCE-01-CCE_HL1.4.2023-01-25T15-40.pdx
+
+
+
+codebeamer_info:
+  name: SH1905022
+  password: 199656@Jsm6
+  project_num:
+
+
+ecu_side_info:
+  node:
+    - 0x74
+    - 0x75
+    - 0x7C
+    - 0x7D
+
+  cdd_name:
+    - Lighting_Driver_Control_Module_A
+    - Lighting_Driver_Control_Module_B
+    - Lighting_Driver_Control_Module_C
+    - Lighting_Driver_Control_Module_D
+
+  diag_send_msg_id:
+    - 0x6f6
+    - 0x6f7
+    - 0x6d7
+    - 0x6d6
+
+  diag_rec_msg_id:
+   - 0x6fe
+   - 0x6ff
+   - 0x6df
+   - 0x6de
+
+
+
+
+

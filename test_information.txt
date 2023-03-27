@@ -1,0 +1,11 @@
+tester = YuJie.Shi
+report_title = Ford_SML_Test
+project = LDM
+sample = AD
+variant = 12B
+bootloader = 0013
+HW = 213
+SW = B090
+tag = B090
+dataset = VB009
+testcase_path = test_profile/test_case/ford_test_case/tc_sml.py

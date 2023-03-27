@@ -1,0 +1,71 @@
+Static_Bending_test_case:
+  - testCaseID: systss-598
+    toCoverID: systs-598/systs-618
+    addr: 1
+    intensity: 50
+
+  - testCaseID: systss-599
+    toCoverID: systs-599
+    addr: 1
+    intensity: 0
+
+  - testCaseID: systss-619
+    toCoverID: systs-619
+    addr: 1
+    intensity: 107
+
+Segment_Bending_test_case:
+  - testCaseID: systss-600
+    toCoverID: systs-600/systs-620
+    addr: 1
+    intensity: 30
+
+  - testCaseID: systss-601
+    toCoverID: systs-601/systs-620
+    addr: 1
+    intensity: 0
+
+  - testCaseID: systss-602
+    toCoverID: systs-602/systs-620
+    addr: 2
+    intensity: 40
+
+  - testCaseID: systss-603
+    toCoverID: systs-603/systs-620
+    addr: 2
+    intensity: 0
+
+  - testCaseID: systss-604
+    toCoverID: systs-604/systs-620
+    addr: 3
+    intensity: 60
+
+  - testCaseID: systss-605
+    toCoverID: systs-605/systs-620
+    addr: 3
+    intensity: 0
+
+  - testCaseID: systss-606
+    toCoverID: systs-606/systs-620
+    addr: 4
+    intensity: 70
+
+  - testCaseID: systss-607
+    toCoverID: systs-607/systs-620
+    addr: 4
+    intensity: 0
+
+  - testCaseID: systss-608
+    toCoverID: systs-608/systs-620
+    addr: 5
+    intensity: 80
+
+  - testCaseID: systss-609
+    toCoverID: systs-609/systs-620
+    addr: 5
+    intensity: 0
+
+  - testCaseID: systss-621
+    toCoverID: systs-621
+    addr: 2
+    intensity: 107

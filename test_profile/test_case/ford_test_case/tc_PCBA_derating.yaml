@@ -1,0 +1,120 @@
+pcba_derating_test_case:
+  - testCaseID: systss-927
+    toCoverID: systs-927
+    function: LB
+    PCBA_tem: 80
+
+  - testCaseID: systss-928
+    toCoverID: systs-928
+    function: LB
+    PCBA_tem: 100
+
+  - testCaseID: systss-929
+    toCoverID: systs-929
+    function: LB
+    PCBA_tem: 110
+
+  - testCaseID: systss-930
+    toCoverID: systs-930
+    function: LB
+    PCBA_tem: 125
+
+  - testCaseID: systss-933
+    toCoverID: systs-933/systs-939
+    function: HB
+    PCBA_tem: 80
+
+  - testCaseID: systss-934
+    toCoverID: systs-934/systs-9340
+    function: HB
+    PCBA_tem: 100
+
+  - testCaseID: systss-935
+    toCoverID: systs-935/systs-941
+    function: HB
+    PCBA_tem: 110
+
+  - testCaseID: systss-936
+    toCoverID: systs-936/systs-942
+    function: HB
+    PCBA_tem: 125
+
+  - testCaseID: systss-945
+    toCoverID: systs-945
+    function: Pixel
+    PCBA_tem: 80
+
+  - testCaseID: systss-946
+    toCoverID: systs-946
+    function: Pixel
+    PCBA_tem: 100
+
+  - testCaseID: systss-947
+    toCoverID: systs-947
+    function: Pixel
+    PCBA_tem: 110
+
+  - testCaseID: systss-948
+    toCoverID: systs-948
+    function: Pixel
+    PCBA_tem: 125
+
+  - testCaseID: systss-951
+    toCoverID: systs-951
+    function: TI
+    PCBA_tem: 80
+
+  - testCaseID: systss-952
+    toCoverID: systs-952
+    function: TI
+    PCBA_tem: 100
+
+  - testCaseID: systss-953
+    toCoverID: systs-953
+    function: TI
+    PCBA_tem: 110
+
+  - testCaseID: systss-954
+    toCoverID: systs-954
+    function: TI
+    PCBA_tem: 125
+
+  - testCaseID: systss-957
+    toCoverID: systs-957
+    function: DRL
+    PCBA_tem: 80
+
+  - testCaseID: systss-958
+    toCoverID: systs-958
+    function: DRL
+    PCBA_tem: 100
+
+  - testCaseID: systss-959
+    toCoverID: systs-959
+    function: DRL
+    PCBA_tem: 110
+
+  - testCaseID: systss-960
+    toCoverID: systs-960
+    function: DRL
+    PCBA_tem: 125
+
+  - testCaseID: systss-963
+    toCoverID: systs-963
+    function: Aux
+    PCBA_tem: 80
+
+  - testCaseID: systss-964
+    toCoverID: systs-964
+    function: Aux
+    PCBA_tem: 100
+
+  - testCaseID: systss-965
+    toCoverID: systs-965
+    function: Aux
+    PCBA_tem: 110
+
+  - testCaseID: systss-966
+    toCoverID: systs-966
+    function: Aux
+    PCBA_tem: 125

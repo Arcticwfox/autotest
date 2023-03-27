@@ -1,0 +1,515 @@
+bin_test_case:
+    -
+        #  ch1 bin1
+        testCaseID: systss-111
+        toCoverID: systs-111/112
+        ch: 1
+        bin: 1
+    -
+        #  ch1 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 1
+        bin: 2
+    -
+        #  ch1 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 1
+        bin: 3
+
+    -
+        #  ch1 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 1
+        bin: 4
+
+    -
+        #  ch1 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 1
+        bin: 5
+
+    -
+        #  ch1 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 1
+        bin: 6
+
+    - #  ch1 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 1
+        bin: 7
+
+    - #  ch2 bin1
+        testCaseID: systss-111
+        toCoverID: systs-111/112
+        ch: 2
+        bin: 1
+
+    - #  ch2 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 2
+        bin: 2
+
+    - #  ch2 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 2
+        bin: 3
+
+    - #  ch2 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 2
+        bin: 4
+
+    - #  ch2 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 2
+        bin: 5
+
+    - #  ch2 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 2
+        bin: 6
+
+    - #  ch2 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 2
+        bin: 7
+
+    - #  ch3 bin1
+        testCaseID: systss-111
+        toCoverID: systs-111/112
+        ch: 3
+        bin: 1
+
+    - #  ch3 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 3
+        bin: 2
+
+    - #  ch3 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 3
+        bin: 3
+
+    - #  ch3 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 3
+        bin: 4
+
+    - #  ch3 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 3
+        bin: 5
+
+    - #  ch3 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 3
+        bin: 6
+
+    - #  ch3 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 3
+        bin: 7
+
+    - #  ch4 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 4
+        bin: 1
+
+    - #  ch4 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 4
+        bin: 2
+
+    - #  ch4 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 4
+        bin: 3
+
+    - #  ch4 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 4
+        bin: 4
+
+    - #  ch4 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 4
+        bin: 5
+
+    - #  ch4 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 4
+        bin: 6
+
+    - #  ch4 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 4
+        bin: 7
+
+    - #  ch5 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 5
+        bin: 1
+
+    - #  ch5 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 5
+        bin: 2
+
+    - #  ch5 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 5
+        bin: 3
+
+    - #  ch5 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 5
+        bin: 4
+
+    - #  ch5 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 5
+        bin: 5
+
+    - #  ch5 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 5
+        bin: 6
+
+    - #  ch5 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 5
+        bin: 7
+
+
+    - #  ch6 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 6
+        bin: 1
+
+    - #  ch6 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 6
+        bin: 2
+
+    - #  ch6 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 6
+        bin: 3
+
+    - #  ch6 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 6
+        bin: 4
+
+    - #  ch6 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 6
+        bin: 5
+
+    - #  ch6 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 6
+        bin: 6
+
+    - #  ch6 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 6
+        bin: 7
+
+
+    - #  ch7 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 7
+        bin: 1
+
+    - #  ch7 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 7
+        bin: 2
+
+    - #  ch7 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 7
+        bin: 3
+
+    - #  ch7 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 7
+        bin: 4
+
+    - #  ch7 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 7
+        bin: 5
+
+    - #  ch7 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 7
+        bin: 6
+
+    - #  ch7 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 7
+        bin: 7
+
+
+    - #  ch8 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 8
+        bin: 1
+
+    - #  ch8 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 8
+        bin: 2
+
+    - #  ch8 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 8
+        bin: 3
+
+    - #  ch8 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 8
+        bin: 4
+
+    - #  ch8 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 8
+        bin: 5
+
+    - #  ch8 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 8
+        bin: 6
+
+    - #  ch8 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 8
+        bin: 7
+
+
+    - #  ch9 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 9
+        bin: 1
+
+    - #  ch9 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 9
+        bin: 2
+
+    - #  ch9 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 9
+        bin: 3
+
+    - #  ch9 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 9
+        bin: 4
+
+    - #  ch9 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 9
+        bin: 5
+
+    - #  ch9 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 9
+        bin: 6
+
+    - #  ch9 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 9
+        bin: 7
+
+
+    - #  ch10 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 10
+        bin: 1
+
+    - #  ch10 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 10
+        bin: 2
+
+    - #  ch10 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 10
+        bin: 3
+
+    - #  ch10 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 10
+        bin: 4
+
+    - #  ch10 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 10
+        bin: 5
+
+    - #  ch10 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 10
+        bin: 6
+
+    - #  ch10 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 10
+        bin: 7
+
+
+    - #  ch11 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 11
+        bin: 1
+
+    - #  ch11 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 11
+        bin: 2
+
+    - #  ch11 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 11
+        bin: 3
+
+    - #  ch11 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 11
+        bin: 4
+
+    - #  ch11 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 11
+        bin: 5
+
+    - #  ch11 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 11
+        bin: 6
+
+    - #  ch11 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 11
+        bin: 7
+
+
+    - #  ch12 bin1
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 12
+        bin: 1
+
+    - #  ch12 bin2
+        testCaseID: systss-113
+        toCoverID: systs-113/114
+        ch: 12
+        bin: 2
+
+    - #  ch12 bin3
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 12
+        bin: 3
+
+    - #  ch12 bin4
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 12
+        bin: 4
+
+    - #  ch12 bin5
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 12
+        bin: 5
+
+    - #  ch12 bin6
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 12
+        bin: 6
+
+    - #  ch12 bin7
+        testCaseID: systss-115
+        toCoverID: systs-115/116
+        ch: 12
+        bin: 7

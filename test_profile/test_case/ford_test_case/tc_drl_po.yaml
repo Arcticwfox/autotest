@@ -1,0 +1,292 @@
+drl_po_test_case:
+    -
+      testCaseID: systss-403
+      toCoverID: systs-403/405
+      drl/po_x: 1
+      drl/po_request: 0
+
+    -
+      testCaseID: systss-404
+      toCoverID: systs-404/406
+      drl/po_x: 2
+      drl/po_request: 0
+
+    -
+      testCaseID: systss-7936
+      toCoverID: systs-7936/7938
+      drl/po_x: 3
+      drl/po_request: 0
+    -
+      testCaseID: systss-7937
+      toCoverID: systs-7937/7939
+      drl/po_x: 4
+      drl/po_request: 0
+    -
+      testCaseID: systss-408
+      toCoverID: systs-408/410
+      drl/po_x: 1
+      drl/po_request: 1
+
+    -
+      testCaseID: systss-409
+      toCoverID: systs-409/411
+      drl/po_x: 2
+      drl/po_request: 1
+
+    -
+      testCaseID: systss-7940
+      toCoverID: systs-7940/7942
+      drl/po_x: 3
+      drl/po_request: 1
+
+    -
+      testCaseID: systss-7941
+      toCoverID: systs-7941/7943
+      drl/po_x: 4
+      drl/po_request: 1
+
+    -
+      testCaseID: systss-413
+      toCoverID: systs-413/415
+      drl/po_x: 1
+      drl/po_request: 2
+
+    -
+      testCaseID: systss-414
+      toCoverID: systs-414/416
+      drl/po_x: 2
+      drl/po_request: 2
+
+    -
+      testCaseID: systss-7944
+      toCoverID: systs-7944/7946
+      drl/po_x: 3
+      drl/po_request: 2
+
+    -
+      testCaseID: systss-7945
+      toCoverID: systs-7945/7947
+      drl/po_x: 4
+      drl/po_request: 2
+
+    -
+      testCaseID: systss-8043
+      toCoverID: systs-8043
+      drl/po_x: 1
+      drl/po_request: 3
+
+    -
+      testCaseID: systss-8044
+      toCoverID: systs-8044
+      drl/po_x: 2
+      drl/po_request: 3
+
+    -
+      testCaseID: systss-8045
+      toCoverID: systs-8045
+      drl/po_x: 3
+      drl/po_request: 3
+
+    -
+      testCaseID: systss-8046
+      toCoverID: systs-8046
+      drl/po_x: 4
+      drl/po_request: 3
+
+
+
+po_with_ti_test_case:
+    -
+       testCaseID: systss-452
+       toCoverID: systs-452/465
+       drl/po_x: 1
+       ti_request: 0
+
+    -
+       testCaseID: systss-454
+       toCoverID: systs-454/467
+       drl/po_x: 1
+       ti_request: 1
+
+    -
+      testCaseID: systss-465
+      toCoverID: systs-456/469
+      drl/po_x: 1
+      ti_request: 2
+
+    -
+      testCaseID: systss-3974
+      toCoverID: systs-3974/3976
+      drl/po_x: 1
+      ti_request: 3
+
+    -
+       testCaseID: systss-453
+       toCoverID: systs-453/466
+       drl/po_x: 2
+       ti_request: 0
+
+    -
+       testCaseID: systss-455
+       toCoverID: systs-455/468
+       drl/po_x: 2
+       ti_request: 1
+
+    -
+      testCaseID: systss-467
+      toCoverID: systs-457/470
+      drl/po_x: 2
+      ti_request: 2
+
+    -
+      testCaseID: systss-3975
+      toCoverID: systs-3975/3977
+      drl/po_x: 2
+      ti_request: 3
+
+    -
+       testCaseID: systss-7948
+       toCoverID: systs-7948/7956
+       drl/po_x: 3
+       ti_request: 0
+
+    -
+       testCaseID: systss-7949
+       toCoverID: systs-7949/7957
+       drl/po_x: 3
+       ti_request: 1
+
+    -
+      testCaseID: systss-7950
+      toCoverID: systs-7950/7958
+      drl/po_x: 3
+      ti_request: 2
+
+    -
+      testCaseID: systss-7951
+      toCoverID: systs-7951/7959
+      drl/po_x: 3
+      ti_request: 3
+
+    -
+       testCaseID: systss-7952
+       toCoverID: systs-7952/7960
+       drl/po_x: 4
+       ti_request: 0
+
+    -
+       testCaseID: systss-7953
+       toCoverID: systs-7953/7961
+       drl/po_x: 4
+       ti_request: 1
+
+    -
+      testCaseID: systss-7954
+      toCoverID: systs-7954/7962
+      drl/po_x: 4
+      ti_request: 2
+
+    -
+      testCaseID: systss-7955
+      toCoverID: systs-7955/7963
+      drl/po_x: 4
+      ti_request: 3
+
+
+aux_test_case:
+    -
+       testCaseID: systss-491
+       toCoverID: systs-491
+       aux_x: 1
+       drl_request: 0
+
+    -
+       testCaseID: systss-490
+       toCoverID: systs-490
+       aux_x: 1
+       drl_request: 1
+
+    -
+       testCaseID: systss-489
+       toCoverID: systs-489
+       aux_x: 1
+       drl_request: 2
+
+    -
+       testCaseID: systss-10579
+       toCoverID: systs-10579
+       aux_x: 1
+       drl_request: 3
+
+    -
+       testCaseID: systss-494
+       toCoverID: systs-494
+       aux_x: 2
+       drl_request: 0
+
+    -
+       testCaseID: systss-493
+       toCoverID: systs-493
+       aux_x: 2
+       drl_request: 1
+
+    -
+       testCaseID: systss-492
+       toCoverID: systs-492
+       aux_x: 2
+       drl_request: 2
+
+    -
+       testCaseID: systss-10580
+       toCoverID: systs-10580
+       aux_x: 2
+       drl_request: 3
+
+    -
+       testCaseID: systss-7995
+       toCoverID: systs-7995
+       aux_x: 3
+       drl_request: 0
+
+    -
+       testCaseID: systss-7994
+       toCoverID: systs-7994
+       aux_x: 3
+       drl_request: 1
+
+    -
+       testCaseID: systss-7993
+       toCoverID: systs-7993
+       aux_x: 3
+       drl_request: 2
+
+    -
+       testCaseID: systss-10581
+       toCoverID: systs-10581
+       aux_x: 3
+       drl_request: 3
+
+    -
+       testCaseID: systss-7998
+       toCoverID: systs-7998
+       aux_x: 4
+       drl_request: 0
+
+    -
+       testCaseID: systss-7997
+       toCoverID: systs-7997
+       aux_x: 4
+       drl_request: 1
+
+    -
+       testCaseID: systss-7996
+       toCoverID: systs-7996
+       aux_x: 4
+       drl_request: 2
+
+    -
+       testCaseID: systss-10582
+       toCoverID: systs-10582
+       aux_x: 4
+       drl_request: 3
+

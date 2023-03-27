@@ -1,0 +1,70 @@
+e2e_test_case:
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 0
+    e2e_type: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 0
+    e2e_type: 2
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 1
+    e2e_type: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 1
+    e2e_type: 2
+
+
+e2e_light_test_case:
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 0
+    e2e_type: 1
+    wait_time: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 0
+    e2e_type: 2
+    wait_time: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 1
+    e2e_type: 1
+    wait_time: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 1
+    e2e_type: 2
+    wait_time: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 0
+    e2e_type: 1
+    wait_time: 4
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 0
+    e2e_type: 2
+    wait_time: 4
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 1
+    e2e_type: 1
+    wait_time: 4
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    e2e_error: 1
+    e2e_type: 2
+    wait_time: 4

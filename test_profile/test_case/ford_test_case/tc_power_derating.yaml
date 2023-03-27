@@ -1,0 +1,509 @@
+start_stop_derating_test_case:
+  - testCaseID: systss-2545
+    toCoverID: systs-2545
+    function: LB
+    voltage: 10
+
+  - testCaseID: systss-2546
+    toCoverID: systs-2546
+    function: LB
+    voltage: 8
+
+  - testCaseID: systss-2547
+    toCoverID: systs-2547
+    function: LB
+    voltage: 7
+
+  - testCaseID: systss-2549
+    toCoverID: systs-2549
+    function: Pixel
+    voltage: 10
+
+  - testCaseID: systss-2550
+    toCoverID: systs-2550
+    function: Pixel
+    voltage: 8
+
+  - testCaseID: systss-2551
+    toCoverID: systs-2551
+    function: Pixel
+    voltage: 7
+
+  - testCaseID: systss-2553
+    toCoverID: systs-2553
+    function: HB
+    voltage: 10
+
+  - testCaseID: systss-2554
+    toCoverID: systs-2554
+    function: HB
+    voltage: 8
+
+  - testCaseID: systss-2555
+    toCoverID: systs-2555
+    function: HB
+    voltage: 7
+
+  - testCaseID: systss-2557
+    toCoverID: systs-2557
+    function: TI
+    voltage: 10
+
+  - testCaseID: systss-2558
+    toCoverID: systs-2558
+    function: TI
+    voltage: 8
+
+  - testCaseID: systss-2559
+    toCoverID: systs-2559
+    function: TI
+    voltage: 7
+
+  - testCaseID: systss-2561
+    toCoverID: systs-2561
+    function: DRL
+    voltage: 10
+
+  - testCaseID: systss-2562
+    toCoverID: systs-2562
+    function: DRL
+    voltage: 8
+
+  - testCaseID: systss-2563
+    toCoverID: systs-2563
+    function: DRL
+    voltage: 7
+
+  - testCaseID: systss-2565
+    toCoverID: systs-2565
+    function: Aux
+    voltage: 10
+
+  - testCaseID: systss-2566
+    toCoverID: systs-2566
+    function: Aux
+    voltage: 8
+
+  - testCaseID: systss-2567
+    toCoverID: systs-2567
+    function: Aux
+    voltage: 7
+
+  - testCaseID: systss-2569
+    toCoverID: systs-2569
+    function: Bending
+    voltage: 10
+
+  - testCaseID: systss-2570
+    toCoverID: systs-2570
+    function: Bending
+    voltage: 8
+
+  - testCaseID: systss-2571
+    toCoverID: systs-2571
+    function: Bending
+    voltage: 7
+
+  - testCaseID: systss-2573
+    toCoverID: systs-2573
+    function: SML
+    voltage: 10
+
+  - testCaseID: systss-2574
+    toCoverID: systs-2574
+    function: SML
+    voltage: 8
+
+  - testCaseID: systss-2575
+    toCoverID: systs-2575
+    function: SML
+    voltage: 7
+
+low_voltage_derating_test_case:
+  - testCaseID: systss-2483
+    toCoverID: systs-2483
+    function: LB
+    voltage: 9
+
+  - testCaseID: systss-2509
+    toCoverID: systs-2509
+    function: LB
+    voltage: 8
+
+  - testCaseID: systss-2508
+    toCoverID: systs-2508
+    function: LB
+    voltage: 7
+
+  - testCaseID: systss-2507
+    toCoverID: systs-2507
+    function: LB
+    voltage: 6
+
+  - testCaseID: systss-2510
+    toCoverID: systs-2510
+    function: Pixel
+    voltage: 9
+
+  - testCaseID: systss-2511
+    toCoverID: systs-2511
+    function: Pixel
+    voltage: 8
+
+  - testCaseID: systss-2512
+    toCoverID: systs-2512
+    function: Pixel
+    voltage: 7
+
+  - testCaseID: systss-2513
+    toCoverID: systs-2513
+    function: Pixel
+    voltage: 6
+
+  - testCaseID: systss-2514
+    toCoverID: systs-2514
+    function: HB
+    voltage: 9
+
+  - testCaseID: systss-2515
+    toCoverID: systs-2515
+    function: HB
+    voltage: 8
+
+  - testCaseID: systss-2516
+    toCoverID: systs-2516
+    function: HB
+    voltage: 7
+
+  - testCaseID: systss-2517
+    toCoverID: systs-2517
+    function: HB
+    voltage: 6
+
+  - testCaseID: systss-2519
+    toCoverID: systs-2519
+    function: TI
+    voltage: 9
+
+  - testCaseID: systss-2520
+    toCoverID: systs-2520
+    function: TI
+    voltage: 8
+
+  - testCaseID: systss-2521
+    toCoverID: systs-2521
+    function: TI
+    voltage: 7
+
+  - testCaseID: systss-2522
+    toCoverID: systs-2522
+    function: TI
+    voltage: 6
+
+  - testCaseID: systss-2523
+    toCoverID: systs-2523
+    function: DRL
+    voltage: 9
+
+  - testCaseID: systss-2524
+    toCoverID: systs-2524
+    function: DRL
+    voltage: 8
+
+  - testCaseID: systss-2525
+    toCoverID: systs-2525
+    function: DRL
+    voltage: 7
+
+  - testCaseID: systss-2518
+    toCoverID: systs-2518
+    function: DRL
+    voltage: 6.5
+
+  - testCaseID: systss-2526
+    toCoverID: systs-2526
+    function: DRL
+    voltage: 6
+
+  - testCaseID: systss-2527
+    toCoverID: systs-2527
+    function: Aux
+    voltage: 9
+
+  - testCaseID: systss-2531
+    toCoverID: systs-2531
+    function: Aux
+    voltage: 8.5
+
+  - testCaseID: systss-2528
+    toCoverID: systs-2528
+    function: Aux
+    voltage: 8
+
+  - testCaseID: systss-2529
+    toCoverID: systs-2529
+    function: Aux
+    voltage: 7
+
+  - testCaseID: systss-2530
+    toCoverID: systs-2530
+    function: Aux
+    voltage: 6
+
+  - testCaseID: systss-2532
+    toCoverID: systs-2532
+    function: Bending
+    voltage: 9
+
+  - testCaseID: systss-2536
+    toCoverID: systs-2536
+    function: Bending
+    voltage: 8.5
+
+  - testCaseID: systss-2533
+    toCoverID: systs-2533
+    function: Bending
+    voltage: 8
+
+  - testCaseID: systss-2534
+    toCoverID: systs-2534
+    function: Bending
+    voltage: 7
+
+  - testCaseID: systss-2535
+    toCoverID: systs-2535
+    function: Bending
+    voltage: 6
+
+  - testCaseID: systss-2537
+    toCoverID: systs-2537
+    function: SML
+    voltage: 9
+
+  - testCaseID: systss-2538
+    toCoverID: systs-2538
+    function: SML
+    voltage: 8
+
+  - testCaseID: systss-2539
+    toCoverID: systs-2539
+    function: SML
+    voltage: 7
+
+  - testCaseID: systss-2540
+    toCoverID: systs-2540
+    function: SML
+    voltage: 6
+
+low_power_animation_derating_test_case:
+  - testCaseID: systss-9864
+    toCoverID: systs-9864
+    function: LB
+    voltage: 9
+
+  - testCaseID: systss-9865
+    toCoverID: systs-9865
+    function: Pixel
+    voltage: 9
+
+  - testCaseID: systss-9866
+    toCoverID: systs-9866
+    function: HB
+    voltage: 9
+
+  - testCaseID: systss-9867
+    toCoverID: systs-9867
+    function: TI
+    voltage: 9
+
+  - testCaseID: systss-9868
+    toCoverID: systs-9868
+    function: DRL
+    voltage: 9
+
+  - testCaseID: systss-9869
+    toCoverID: systs-9869
+    function: Aux
+    voltage: 9
+
+  - testCaseID: systss-9870
+    toCoverID: systs-9870
+    function: Bending
+    voltage: 9
+
+  - testCaseID: systss-8114
+    toCoverID: systs-8114
+    function: LB
+    voltage: 8
+
+  - testCaseID: systss-9855
+    toCoverID: systs-9855
+    function: Pixel
+    voltage: 8
+
+  - testCaseID: systss-9856
+    toCoverID: systs-9856
+    function: HB
+    voltage: 8
+
+  - testCaseID: systss-9857
+    toCoverID: systs-9857
+    function: TI
+    voltage: 8
+
+  - testCaseID: systss-8115
+    toCoverID: systs-8115
+    function: DRL
+    voltage: 8
+
+  - testCaseID: systss-8116
+    toCoverID: systs-8116
+    function: Aux
+    voltage: 8
+
+  - testCaseID: systss-9860
+    toCoverID: systs-9860
+    function: Bending
+    voltage: 8
+
+
+total_power_derating_test_case:
+  - testCaseID: systss-2458
+    toCoverID: systs-2458
+    bin: 7
+    voltage: 13.5
+    main_power_status: "on"
+
+  - testCaseID: systss-2459
+    toCoverID: systs-2459
+    bin: 1
+    voltage: 13.5
+    main_power_status: "on"
+
+  - testCaseID: systss-2467
+    toCoverID: systs-2467
+    bin: 7
+    voltage: 9
+    main_power_status: "on"
+
+  - testCaseID: systss-2468
+    toCoverID: systs-2468
+    bin: 1
+    voltage: 9
+    main_power_status: "on"
+
+  - testCaseID: systss-2460
+    toCoverID: systs-2460
+    bin: 7
+    voltage: 8
+    main_power_status: "on"
+
+  - testCaseID: systss-2461
+    toCoverID: systs-2461
+    bin: 1
+    voltage: 8
+    main_power_status: "on"
+
+  - testCaseID: systss-2462
+    toCoverID: systs-2462
+    bin: 7
+    voltage: 7
+    main_power_status: "on"
+
+  - testCaseID: systss-2463
+    toCoverID: systs-2463
+    bin: 1
+    voltage: 7
+    main_power_status: "on"
+
+  - testCaseID: systss-2470
+    toCoverID: systs-2470
+    bin: 7
+    voltage: 6
+    main_power_status: "on"
+
+  - testCaseID: systss-2471
+    toCoverID: systs-2471
+    bin: 1
+    voltage: 6
+    main_power_status: "on"
+
+  - testCaseID: systss-10499
+    toCoverID: systs-10499
+    bin: 1
+    voltage: 13.5
+    main_power_status: 'off'
+
+  - testCaseID: systss-10500
+    toCoverID: systs-10500
+    bin: 7
+    voltage: 13.5
+    main_power_status: 'off'
+
+
+
+channel_power_derating_test_case:
+  - testCaseID: systss-3936
+    toCoverID: systs-3936
+    channel: 1
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3937
+    toCoverID: systs-3937
+    channel: 2
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3938
+    toCoverID: systs-3938
+    channel: 3
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3939
+    toCoverID: systs-3939
+    channel: 4
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3940
+    toCoverID: systs-3940
+    channel: 5
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3941
+    toCoverID: systs-3941
+    channel: 6
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3942
+    toCoverID: systs-3942
+    channel: 7
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3943
+    toCoverID: systs-3943
+    channel: 8
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3944
+    toCoverID: systs-3944
+    channel: 9
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3945
+    toCoverID: systs-3945
+    channel: 10
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3946
+    toCoverID: systs-3946
+    channel: 11
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3947
+    toCoverID: systs-3947
+    channel: 12
+    expect_max_power: 38.5
+
+  - testCaseID: systss-3947
+    toCoverID: systs-3947
+    channel: 13
+    expect_max_power: 4

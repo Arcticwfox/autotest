@@ -1,0 +1,157 @@
+ezl_request_test_case:
+  - testCaseID: systss-4064-1
+    toCoverID: systs-4064
+    ezl_request: 0
+    did_para: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4064-2
+    toCoverID: systs-4064
+    ezl_request: 1
+    did_para: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4064-3
+    toCoverID: systs-4064
+    ezl_request: 2
+    did_para: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4064-4
+    toCoverID: systs-4064
+    ezl_request: 3
+    did_para: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4064-5
+    toCoverID: systs-4064
+    ezl_request: 0
+    did_para: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4064-6
+    toCoverID: systs-4064
+    ezl_request: 1
+    did_para: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4064-7
+    toCoverID: systs-4064
+    ezl_request: 2
+    did_para: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4064-8
+    toCoverID: systs-4064
+    ezl_request: 3
+    did_para: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4062-1
+    toCoverID: systs-4062
+    ezl_request: 2
+    did_para: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4062-2
+    toCoverID: systs-4062
+    ezl_request: 2
+    did_para: [ 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+ezl_channel_cfg_test_case:
+  - testCaseID: systss-4089-1
+    toCoverID: systs-4089
+    ezl_request: 2
+    did_para: [ 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4089-2
+    toCoverID: systs-4089
+    ezl_request: 2
+    did_para: [ 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4090-1
+    toCoverID: systs-4090
+    ezl_request: 2
+    did_para: [ 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+
+  - testCaseID: systss-4090-2
+    toCoverID: systs-4090
+    ezl_request: 2
+    did_para: [ 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+
+ezl_po_interrupt_ezl_test_case:
+  - testCaseID: systss-4089-1
+    toCoverID: systs-4089
+    ezl_request: 2
+    did_para: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    drl_x: 1
+
+  - testCaseID: systss-4089-1
+    toCoverID: systs-4089
+    ezl_request: 2
+    did_para: [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    drl_x: 2
+
+ezl_iocontrol_test_case:
+  - testCaseID: systss-8597
+    toCoverID: systs-8597
+    ezl_request: 2
+    fun: drl
+    iocontrol_request: 1
+
+  - testCaseID: systss-8597
+    toCoverID: systs-8597
+    ezl_request: 2
+    fun: drl
+    iocontrol_request: 2
+
+  - testCaseID: systss-8612
+    toCoverID: systs-8612
+    ezl_request: 2
+    fun: aux
+    iocontrol_request: 1
+
+  - testCaseID: systss-8612
+    toCoverID: systs-8612
+    ezl_request: 2
+    fun: aux
+    iocontrol_request: 2
+
+  - testCaseID: systss-8608/8611
+    toCoverID: systs-8608/8611
+    ezl_request: 2
+    fun: bending
+    iocontrol_request: 1
+
+  - testCaseID: systss-8608/8611
+    toCoverID: systs-8608/8611
+    ezl_request: 2
+    fun: bending
+    iocontrol_request: 2
+
+  - testCaseID: systss-8086/8610
+    toCoverID: systs-8086/8610
+    ezl_request: 2
+    fun: ti
+    iocontrol_request: 1
+
+  - testCaseID: systss-8086/8610
+    toCoverID: systs-8086/8610
+    ezl_request: 2
+    fun: ti
+    iocontrol_request: 2
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    ezl_request: 2
+    fun: lb
+    iocontrol_request: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    ezl_request: 2
+    fun: lb
+    iocontrol_request: 2
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    ezl_request: 2
+    fun: hb
+    iocontrol_request: 1
+
+  - testCaseID: systss-
+    toCoverID: systs-
+    ezl_request: 2
+    fun: hb
+    iocontrol_request: 2

@@ -1,0 +1,738 @@
+analog_ntc_derating_test_case:
+  - testCaseID: systss-818
+    toCoverID: systs-818
+    function: LB
+    TD_value: 1
+
+  - testCaseID: systss-819
+    toCoverID: systs-819
+    function: LB
+    TD_value: 2
+
+  - testCaseID: systss-820
+    toCoverID: systs-820
+    function: LB
+    TD_value: 3
+
+  - testCaseID: systss-821
+    toCoverID: systs-821
+    function: LB
+    TD_value: 4
+
+  - testCaseID: systss-822
+    toCoverID: systs-822
+    function: LB
+    TD_value: 5
+
+  - testCaseID: systss-823
+    toCoverID: systs-823
+    function: LB
+    TD_value: 6
+
+  - testCaseID: systss-824
+    toCoverID: systs-824
+    function: LB
+    TD_value: 7
+
+  - testCaseID: systss-827
+    toCoverID: systs-827
+    function: Pixel
+    TD_value: 1
+
+  - testCaseID: systss-828
+    toCoverID: systs-828
+    function: Pixel
+    TD_value: 2
+
+  - testCaseID: systss-829
+    toCoverID: systs-829
+    function: Pixel
+    TD_value: 3
+
+  - testCaseID: systss-830
+    toCoverID: systs-830
+    function: Pixel
+    TD_value: 4
+
+  - testCaseID: systss-831
+    toCoverID: systs-831
+    function: Pixel
+    TD_value: 5
+
+  - testCaseID: systss-832
+    toCoverID: systs-832
+    function: Pixel
+    TD_value: 6
+
+  - testCaseID: systss-833
+    toCoverID: systs-833
+    function: Pixel
+    TD_value: 7
+
+  - testCaseID: systss-836
+    toCoverID: systs-836
+    function: HB
+    TD_value: 1
+
+  - testCaseID: systss-837
+    toCoverID: systs-837
+    function: HB
+    TD_value: 2
+
+  - testCaseID: systss-838
+    toCoverID: systs-838
+    function: HB
+    TD_value: 3
+
+  - testCaseID: systss-839
+    toCoverID: systs-839
+    function: HB
+    TD_value: 4
+
+  - testCaseID: systss-840
+    toCoverID: systs-840
+    function: HB
+    TD_value: 5
+
+  - testCaseID: systss-841
+    toCoverID: systs-841
+    function: HB
+    TD_value: 6
+
+  - testCaseID: systss-842
+    toCoverID: systs-842
+    function: HB
+    TD_value: 7
+
+  - testCaseID: systss-845
+    toCoverID: systs-845
+    function: DRL
+    TD_value: 1
+
+  - testCaseID: systss-846
+    toCoverID: systs-846
+    function: DRL
+    TD_value: 2
+
+  - testCaseID: systss-847
+    toCoverID: systs-847
+    function: DRL
+    TD_value: 3
+
+  - testCaseID: systss-848
+    toCoverID: systs-848
+    function: DRL
+    TD_value: 4
+
+  - testCaseID: systss-849
+    toCoverID: systs-849
+    function: DRL
+    TD_value: 5
+
+  - testCaseID: systss-850
+    toCoverID: systs-850
+    function: DRL
+    TD_value: 6
+
+  - testCaseID: systss-851
+    toCoverID: systs-851
+    function: DRL
+    TD_value: 7
+
+  - testCaseID: systss-854
+    toCoverID: systs-854
+    function: TI
+    TD_value: 1
+
+  - testCaseID: systss-855
+    toCoverID: systs-855
+    function: TI
+    TD_value: 2
+
+  - testCaseID: systss-856
+    toCoverID: systs-856
+    function: TI
+    TD_value: 3
+
+  - testCaseID: systss-857
+    toCoverID: systs-857
+    function: TI
+    TD_value: 4
+
+  - testCaseID: systss-858
+    toCoverID: systs-858
+    function: TI
+    TD_value: 5
+
+  - testCaseID: systss-859
+    toCoverID: systs-859
+    function: TI
+    TD_value: 6
+
+  - testCaseID: systss-860
+    toCoverID: systs-860
+    function: TI
+    TD_value: 7
+
+  - testCaseID: systss-863
+    toCoverID: systs-863
+    function: Aux
+    TD_value: 1
+
+  - testCaseID: systss-864
+    toCoverID: systs-864
+    function: Aux
+    TD_value: 2
+
+  - testCaseID: systss-865
+    toCoverID: systs-865
+    function: Aux
+    TD_value: 3
+
+  - testCaseID: systss-866
+    toCoverID: systs-866
+    function: Aux
+    TD_value: 4
+
+  - testCaseID: systss-867
+    toCoverID: systs-867
+    function: Aux
+    TD_value: 5
+
+  - testCaseID: systss-868
+    toCoverID: systs-868
+    function: Aux
+    TD_value: 6
+
+  - testCaseID: systss-869
+    toCoverID: systs-869
+    function: Aux
+    TD_value: 7
+
+  - testCaseID: systss-872
+    toCoverID: systs-872
+    function: Bending
+    TD_value: 1
+
+  - testCaseID: systss-873
+    toCoverID: systs-873
+    function: Bending
+    TD_value: 2
+
+  - testCaseID: systss-874
+    toCoverID: systs-874
+    function: Bending
+    TD_value: 3
+
+  - testCaseID: systss-875
+    toCoverID: systs-875
+    function: Bending
+    TD_value: 4
+
+  - testCaseID: systss-876
+    toCoverID: systs-876
+    function: Bending
+    TD_value: 5
+
+  - testCaseID: systss-877
+    toCoverID: systs-877
+    function: Bending
+    TD_value: 6
+
+  - testCaseID: systss-878
+    toCoverID: systs-878
+    function: Bending
+    TD_value: 7
+
+
+TI_ntc_derating_test_case:
+  - testCaseID: systss-10518
+    toCoverID: systs-10518
+    function: LB
+    TD_value: 1
+
+  - testCaseID: systss-10519
+    toCoverID: systs-10519
+    function: LB
+    TD_value: 2
+
+  - testCaseID: systss-10520
+    toCoverID: systs-10520
+    function: LB
+    TD_value: 3
+
+  - testCaseID: systss-10521
+    toCoverID: systs-10521
+    function: LB
+    TD_value: 4
+
+  - testCaseID: systss-10522
+    toCoverID: systs-10522
+    function: LB
+    TD_value: 5
+
+  - testCaseID: systss-10523
+    toCoverID: systs-10523
+    function: LB
+    TD_value: 6
+
+  - testCaseID: systss-10524
+    toCoverID: systs-10524
+    function: LB
+    TD_value: 7
+
+  - testCaseID: systss-881
+    toCoverID: systs-881
+    function: Pixel
+    TD_value: 1
+
+  - testCaseID: systss-882
+    toCoverID: systs-882
+    function: Pixel
+    TD_value: 2
+
+  - testCaseID: systss-883
+    toCoverID: systs-883
+    function: Pixel
+    TD_value: 3
+
+  - testCaseID: systss-884
+    toCoverID: systs-884
+    function: Pixel
+    TD_value: 4
+
+  - testCaseID: systss-885
+    toCoverID: systs-885
+    function: Pixel
+    TD_value: 5
+
+  - testCaseID: systss-886
+    toCoverID: systs-886
+    function: Pixel
+    TD_value: 6
+
+  - testCaseID: systss-887
+    toCoverID: systs-887
+    function: Pixel
+    TD_value: 7
+
+  - testCaseID: systss-890
+    toCoverID: systs-890
+    function: HB
+    TD_value: 1
+
+  - testCaseID: systss-891
+    toCoverID: systs-891
+    function: HB
+    TD_value: 2
+
+  - testCaseID: systss-892
+    toCoverID: systs-892
+    function: HB
+    TD_value: 3
+
+  - testCaseID: systss-893
+    toCoverID: systs-893
+    function: HB
+    TD_value: 4
+
+  - testCaseID: systss-894
+    toCoverID: systs-894
+    function: HB
+    TD_value: 5
+
+  - testCaseID: systss-895
+    toCoverID: systs-895
+    function: HB
+    TD_value: 6
+
+  - testCaseID: systss-896
+    toCoverID: systs-896
+    function: HB
+    TD_value: 7
+
+  - testCaseID: systss-899
+    toCoverID: systs-899
+    function: DRL
+    TD_value: 1
+
+  - testCaseID: systss-900
+    toCoverID: systs-900
+    function: DRL
+    TD_value: 2
+
+  - testCaseID: systss-901
+    toCoverID: systs-902
+    function: DRL
+    TD_value: 3
+
+  - testCaseID: systss-903
+    toCoverID: systs-903
+    function: DRL
+    TD_value: 4
+
+  - testCaseID: systss-904
+    toCoverID: systs-904
+    function: DRL
+    TD_value: 5
+
+  - testCaseID: systss-905
+    toCoverID: systs-905
+    function: DRL
+    TD_value: 6
+
+  - testCaseID: systss-906
+    toCoverID: systs-906
+    function: DRL
+    TD_value: 7
+
+  - testCaseID: systss-908
+    toCoverID: systs-908
+    function: TI
+    TD_value: 1
+
+  - testCaseID: systss-909
+    toCoverID: systs-909
+    function: TI
+    TD_value: 2
+
+  - testCaseID: systss-910
+    toCoverID: systs-910
+    function: TI
+    TD_value: 3
+
+  - testCaseID: systss-911
+    toCoverID: systs-911
+    function: TI
+    TD_value: 4
+
+  - testCaseID: systss-912
+    toCoverID: systs-912
+    function: TI
+    TD_value: 5
+
+  - testCaseID: systss-913
+    toCoverID: systs-913
+    function: TI
+    TD_value: 6
+
+  - testCaseID: systss-914
+    toCoverID: systs-914
+    function: TI
+    TD_value: 7
+
+  - testCaseID: systss-863
+    toCoverID: systs-863
+    function: Aux
+    TD_value: 1
+
+  - testCaseID: systss-864
+    toCoverID: systs-864
+    function: Aux
+    TD_value: 2
+
+  - testCaseID: systss-865
+    toCoverID: systs-865
+    function: Aux
+    TD_value: 3
+
+  - testCaseID: systss-866
+    toCoverID: systs-866
+    function: Aux
+    TD_value: 4
+
+  - testCaseID: systss-867
+    toCoverID: systs-867
+    function: Aux
+    TD_value: 5
+
+  - testCaseID: systss-868
+    toCoverID: systs-868
+    function: Aux
+    TD_value: 6
+
+  - testCaseID: systss-869
+    toCoverID: systs-869
+    function: Aux
+    TD_value: 7
+
+  - testCaseID: systss-917
+    toCoverID: systs-917
+    function: Bending
+    TD_value: 1
+
+  - testCaseID: systss-918
+    toCoverID: systs-918
+    function: Bending
+    TD_value: 2
+
+  - testCaseID: systss-919
+    toCoverID: systs-919
+    function: Bending
+    TD_value: 3
+
+  - testCaseID: systss-920
+    toCoverID: systs-920
+    function: Bending
+    TD_value: 4
+
+  - testCaseID: systss-921
+    toCoverID: systs-921
+    function: Bending
+    TD_value: 5
+
+  - testCaseID: systss-922
+    toCoverID: systs-922
+    function: Bending
+    TD_value: 6
+
+  - testCaseID: systss-923
+    toCoverID: systs-923
+    function: Bending
+    TD_value: 7
+
+NXP_ntc_derating_test_case:
+  - testCaseID: systss-10518
+    toCoverID: systs-10518
+    function: LB
+    TD_value: 1
+
+  - testCaseID: systss-10519
+    toCoverID: systs-10519
+    function: LB
+    TD_value: 2
+
+  - testCaseID: systss-10520
+    toCoverID: systs-10520
+    function: LB
+    TD_value: 3
+
+  - testCaseID: systss-10521
+    toCoverID: systs-10521
+    function: LB
+    TD_value: 4
+
+  - testCaseID: systss-10522
+    toCoverID: systs-10522
+    function: LB
+    TD_value: 5
+
+  - testCaseID: systss-10523
+    toCoverID: systs-10523
+    function: LB
+    TD_value: 6
+
+  - testCaseID: systss-10524
+    toCoverID: systs-10524
+    function: LB
+    TD_value: 7
+
+  - testCaseID: systss-3195
+    toCoverID: systs-3195
+    function: Pixel
+    TD_value: 1
+
+  - testCaseID: systss-3196
+    toCoverID: systs-3196
+    function: Pixel
+    TD_value: 2
+
+  - testCaseID: systss-3197
+    toCoverID: systs-3197
+    function: Pixel
+    TD_value: 3
+
+  - testCaseID: systss-3198
+    toCoverID: systs-3198
+    function: Pixel
+    TD_value: 4
+
+  - testCaseID: systss-3199
+    toCoverID: systs-3199
+    function: Pixel
+    TD_value: 5
+
+  - testCaseID: systss-3200
+    toCoverID: systs-3200
+    function: Pixel
+    TD_value: 6
+
+  - testCaseID: systss-3201
+    toCoverID: systs-3201
+    function: Pixel
+    TD_value: 7
+
+  - testCaseID: systss-3206
+    toCoverID: systs-3206
+    function: HB
+    TD_value: 1
+
+  - testCaseID: systss-3207
+    toCoverID: systs-3207
+    function: HB
+    TD_value: 2
+
+  - testCaseID: systss-3208
+    toCoverID: systs-3208
+    function: HB
+    TD_value: 3
+
+  - testCaseID: systss-3209
+    toCoverID: systs-3209
+    function: HB
+    TD_value: 4
+
+  - testCaseID: systss-3210
+    toCoverID: systs-3210
+    function: HB
+    TD_value: 5
+
+  - testCaseID: systss-3211
+    toCoverID: systs-3211
+    function: HB
+    TD_value: 6
+
+  - testCaseID: systss-3212
+    toCoverID: systs-3212
+    function: HB
+    TD_value: 7
+
+  - testCaseID: systss-3217
+    toCoverID: systs-3217
+    function: DRL
+    TD_value: 1
+
+  - testCaseID: systss-3218
+    toCoverID: systs-3218
+    function: DRL
+    TD_value: 2
+
+  - testCaseID: systss-3219
+    toCoverID: systs-3219
+    function: DRL
+    TD_value: 3
+
+  - testCaseID: systss-3220
+    toCoverID: systs-3220
+    function: DRL
+    TD_value: 4
+
+  - testCaseID: systss-3221
+    toCoverID: systs-3221
+    function: DRL
+    TD_value: 5
+
+  - testCaseID: systss-3222
+    toCoverID: systs-3222
+    function: DRL
+    TD_value: 6
+
+  - testCaseID: systss-3224
+    toCoverID: systs-3224
+    function: DRL
+    TD_value: 7
+
+  - testCaseID: systss-3228
+    toCoverID: systs-3228
+    function: TI
+    TD_value: 1
+
+  - testCaseID: systss-3229
+    toCoverID: systs-3229
+    function: TI
+    TD_value: 2
+
+  - testCaseID: systss-3230
+    toCoverID: systs-3230
+    function: TI
+    TD_value: 3
+
+  - testCaseID: systss-3231
+    toCoverID: systs-3231
+    function: TI
+    TD_value: 4
+
+  - testCaseID: systss-3232
+    toCoverID: systs-3232
+    function: TI
+    TD_value: 5
+
+  - testCaseID: systss-3233
+    toCoverID: systs-3233
+    function: TI
+    TD_value: 6
+
+  - testCaseID: systss-3234
+    toCoverID: systs-3234
+    function: TI
+    TD_value: 7
+
+  - testCaseID: systss-863
+    toCoverID: systs-863
+    function: Aux
+    TD_value: 1
+
+  - testCaseID: systss-864
+    toCoverID: systs-864
+    function: Aux
+    TD_value: 2
+
+  - testCaseID: systss-865
+    toCoverID: systs-865
+    function: Aux
+    TD_value: 3
+
+  - testCaseID: systss-866
+    toCoverID: systs-866
+    function: Aux
+    TD_value: 4
+
+  - testCaseID: systss-867
+    toCoverID: systs-867
+    function: Aux
+    TD_value: 5
+
+  - testCaseID: systss-868
+    toCoverID: systs-868
+    function: Aux
+    TD_value: 6
+
+  - testCaseID: systss-869
+    toCoverID: systs-869
+    function: Aux
+    TD_value: 7
+
+  - testCaseID: systss-3239
+    toCoverID: systs-3239
+    function: Bending
+    TD_value: 1
+
+  - testCaseID: systss-3240
+    toCoverID: systs-3240
+    function: Bending
+    TD_value: 2
+
+  - testCaseID: systss-3241
+    toCoverID: systs-3241
+    function: Bending
+    TD_value: 3
+
+  - testCaseID: systss-3242
+    toCoverID: systs-3242
+    function: Bending
+    TD_value: 4
+
+  - testCaseID: systss-3243
+    toCoverID: systs-3243
+    function: Bending
+    TD_value: 5
+
+  - testCaseID: systss-3244
+    toCoverID: systs-3244
+    function: Bending
+    TD_value: 6
+
+  - testCaseID: systss-3245
+    toCoverID: systs-3245
+    function: Bending
+    TD_value: 7

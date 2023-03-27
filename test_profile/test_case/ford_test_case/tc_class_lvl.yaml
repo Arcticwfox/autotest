@@ -1,0 +1,426 @@
+class_lvl_test_case:
+    -
+        #
+        testCaseID: systss-22
+        toCoverID: systs-22/1444/1445
+        class_lvl_req: 0
+        hb_request: 0
+    -
+        #
+        testCaseID: systss-23
+        toCoverID: systs-23/1446/1447
+        class_lvl_req: 1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-54
+        toCoverID: systs-54/1449/1448
+        class_lvl_req: 2
+        hb_request: 0
+
+    - #
+        testCaseID: systss-24
+        toCoverID: systs-24/1451/1450
+        class_lvl_req: 3
+        hb_request: 0
+
+    - #
+        testCaseID: systss-25
+        toCoverID: systs-25/1453/1452
+        class_lvl_req: 4
+        hb_request: 0
+
+    - #
+        testCaseID: systss-26
+        toCoverID: systs-26/1455/1454
+        class_lvl_req: 5
+        hb_request: 0
+
+    - #
+        testCaseID: systss-27
+        toCoverID: systs-27/1457/1456
+        class_lvl_req: 6
+        hb_request: 0
+
+    - #
+        testCaseID: systss-180
+        toCoverID: systs-180/1459/1458
+        class_lvl_req: 7
+        hb_request: 0
+
+    - #
+        testCaseID: systss-181
+        toCoverID: systs-181/1461/1460
+        class_lvl_req: 8
+        hb_request: 0
+
+    - #
+        testCaseID: systss-182
+        toCoverID: systs-182/1463/1462
+        class_lvl_req: 9
+        hb_request: 0
+
+    - #
+        testCaseID: systss-183
+        toCoverID: systs-183/1465/1464
+        class_lvl_req: 10
+        hb_request: 0
+
+    - #
+        testCaseID: systss-184
+        toCoverID: systs-184/1467/1466
+        class_lvl_req: 11
+        hb_request: 0
+
+    - #
+        testCaseID: systss-185
+        toCoverID: systs-185/1469/1468
+        class_lvl_req: 12
+        hb_request: 0
+
+    - #
+        testCaseID: systss-186
+        toCoverID: systs-186/1471/1470
+        class_lvl_req: 13
+        hb_request: 0
+
+
+class_change_test_case:
+    -
+        #
+        testCaseID: systss-229
+        toCoverID: systs-229
+        class_lvl_current_req: C
+        class_lvl_target_req: E
+        hb_request: 0
+    -
+        #
+        testCaseID: systss-230
+        toCoverID: systs-230
+        class_lvl_current_req: C
+        class_lvl_target_req: W
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-231
+        toCoverID: systs-231
+        class_lvl_current_req: C
+        class_lvl_target_req: V1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-232
+        toCoverID: systs-232
+        class_lvl_current_req: C
+        class_lvl_target_req: E1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-233
+        toCoverID: systs-233
+        class_lvl_current_req: C
+        class_lvl_target_req: E2
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-234
+        toCoverID: systs-234
+        class_lvl_current_req: C
+        class_lvl_target_req: E3
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-235
+        toCoverID: systs-235
+        class_lvl_current_req: E
+        class_lvl_target_req: C
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-236
+        toCoverID: systs-236
+        class_lvl_current_req: E
+        class_lvl_target_req: W
+        hb_request: 0
+    -
+        #
+        testCaseID: systss-237
+        toCoverID: systs-237
+        class_lvl_current_req: E
+        class_lvl_target_req: V1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-238
+        toCoverID: systs-238
+        class_lvl_current_req: E
+        class_lvl_target_req: E1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-189
+        toCoverID: systs-189
+        class_lvl_current_req: E
+        class_lvl_target_req: E2
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-190
+        toCoverID: systs-190
+        class_lvl_current_req: E
+        class_lvl_target_req: E3
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-192
+        toCoverID: systs-192
+        class_lvl_current_req: W
+        class_lvl_target_req: C
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-193
+        toCoverID: systs-193
+        class_lvl_current_req: W
+        class_lvl_target_req: E
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-194
+        toCoverID: systs-194
+        class_lvl_current_req: W
+        class_lvl_target_req: V1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-195
+        toCoverID: systs-195
+        class_lvl_current_req: W
+        class_lvl_target_req: E1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-196
+        toCoverID: systs-196
+        class_lvl_current_req: W
+        class_lvl_target_req: E2
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-197
+        toCoverID: systs-197
+        class_lvl_current_req: W
+        class_lvl_target_req: E3
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-239
+        toCoverID: systs-239
+        class_lvl_current_req: V1
+        class_lvl_target_req: C
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-199
+        toCoverID: systs-199
+        class_lvl_current_req: V1
+        class_lvl_target_req: E
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-200
+        toCoverID: systs-200
+        class_lvl_current_req: V1
+        class_lvl_target_req: W
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-240
+        toCoverID: systs-240
+        class_lvl_current_req: V1
+        class_lvl_target_req: E1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-241
+        toCoverID: systs-241
+        class_lvl_current_req: V1
+        class_lvl_target_req: E2
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-242
+        toCoverID: systs-242
+        class_lvl_current_req: V1
+        class_lvl_target_req: E3
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-244
+        toCoverID: systs-244
+        class_lvl_current_req: E1
+        class_lvl_target_req: C
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-249
+        toCoverID: systs-249
+        class_lvl_current_req: E1
+        class_lvl_target_req: E
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-248
+        toCoverID: systs-248
+        class_lvl_current_req: E1
+        class_lvl_target_req: W
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-247
+        toCoverID: systs-247
+        class_lvl_current_req: E1
+        class_lvl_target_req: V1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-246
+        toCoverID: systs-246
+        class_lvl_current_req: E1
+        class_lvl_target_req: E2
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-245
+        toCoverID: systs-245
+        class_lvl_current_req: E1
+        class_lvl_target_req: E3
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-251
+        toCoverID: systs-251
+        class_lvl_current_req: E2
+        class_lvl_target_req: C
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-252
+        toCoverID: systs-252
+        class_lvl_current_req: E2
+        class_lvl_target_req: E
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-253
+        toCoverID: systs-253
+        class_lvl_current_req: E2
+        class_lvl_target_req: W
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-254
+        toCoverID: systs-254
+        class_lvl_current_req: E2
+        class_lvl_target_req: V1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-255
+        toCoverID: systs-255
+        class_lvl_current_req: E2
+        class_lvl_target_req: E1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-256
+        toCoverID: systs-256
+        class_lvl_current_req: E2
+        class_lvl_target_req: E3
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-258
+        toCoverID: systs-258
+        class_lvl_current_req: E3
+        class_lvl_target_req: C
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-259
+        toCoverID: systs-259
+        class_lvl_current_req: E3
+        class_lvl_target_req: E
+        hb_request: 0
+
+    -
+      #
+        testCaseID: systss-260
+        toCoverID: systs-260
+        class_lvl_current_req: E3
+        class_lvl_target_req: W
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-261
+        toCoverID: systs-261
+        class_lvl_current_req: E3
+        class_lvl_target_req: V1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-262
+        toCoverID: systs-262
+        class_lvl_current_req: E3
+        class_lvl_target_req: E1
+        hb_request: 0
+
+    -
+        #
+        testCaseID: systss-263
+        toCoverID: systs-263
+        class_lvl_current_req: E3
+        class_lvl_target_req: E2
+        hb_request: 0
+
+
+
+

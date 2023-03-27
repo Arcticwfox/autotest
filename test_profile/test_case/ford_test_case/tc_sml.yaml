@@ -1,0 +1,73 @@
+sml_test_case:
+  - testCaseID: systss-519
+    toCoverID: systs-519
+    current: 25
+    num: 4
+    vol: 3000
+    hs2_status : 1
+    sml_req : 1
+
+  - testCaseID: systss-2913
+    toCoverID: systs-2913
+    current: 30
+    num: 4
+    vol: 3000
+    hs2_status: 1
+    sml_req : 1
+
+  - testCaseID: systss-2915
+    toCoverID: systs-2915
+    current: 150
+    num: 4
+    vol: 3000
+    hs2_status: 1
+    sml_req : 1
+
+  - testCaseID: systss-2912
+    toCoverID: systs-2912
+    current: 245
+    num: 4
+    vol: 3000
+    hs2_status: 1
+    sml_req : 1
+
+  - testCaseID: systss-2914
+    toCoverID: systs-2914
+    current: 250
+    num: 4
+    vol: 3000
+    hs2_status: 1
+    sml_req : 1
+
+  - testCaseID: systss-2914
+    toCoverID: systs-2914
+    current: 250
+    num: 4
+    vol: 3000
+    hs2_status: 1
+    sml_req : 0
+
+sml_hss2_test_case:
+  - testCaseID: systss-522
+    toCoverID: systs-522
+    current: 100
+    num: 4
+    vol: 3000
+    hs2_status: 1
+    sml_req: 1
+
+  - testCaseID: systss-523
+    toCoverID: systs-523
+    current: 100
+    num: 4
+    vol: 3000
+    hs2_status: 1
+    sml_req: 0
+
+  - testCaseID: systss-524
+    toCoverID: systs-524
+    current: 100
+    num: 4
+    vol: 3000
+    hs2_status: 0
+    sml_req: 1

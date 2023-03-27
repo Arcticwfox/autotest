@@ -1,0 +1,1114 @@
+turn_indicator_test_case:
+    -
+      testCaseID: systss-525
+      toCoverID: systs-525
+      ti_request: 0
+      drl_x: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-527
+      toCoverID: systs-527
+      ti_request: 1
+      drl_x: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-529
+      toCoverID: systs-529
+      ti_request: 2
+      drl_x: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3985
+      toCoverID: systs-3985
+      ti_request: 3
+      drl_x: 1
+      ti_type:
+        - Static_TI
+
+    -
+      testCaseID: systss-526
+      toCoverID: systs-526
+      ti_request: 0
+      drl_x: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    -
+      testCaseID: systss-528
+      toCoverID: systs-528
+      ti_request: 1
+      drl_x: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3957
+      toCoverID: systs-3957
+      ti_request: 2
+      drl_x: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-
+      toCoverID: systs-
+      ti_request: 3
+      drl_x: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    -
+      testCaseID: systss-8067
+      toCoverID: systs-8067
+      ti_request: 0
+      drl_x: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-8068
+      toCoverID: systs-8068
+      ti_request: 1
+      drl_x: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-
+      toCoverID: systs-
+      ti_request: 2
+      drl_x: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-
+      toCoverID: systs-
+      ti_request: 3
+      drl_x: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+
+ti_with_po1_test_case:
+    - testCaseID: systss-3571
+      toCoverID: systs-3571
+      ti_request: 0
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3572
+      toCoverID: systs-3572
+      ti_request: 1
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3573
+      toCoverID: systs-3573
+      ti_request: 0
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3574
+      toCoverID: systs-3574
+      ti_request: 1
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10587
+      toCoverID: systs-10587
+      ti_request: 0
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10587
+      toCoverID: systs-10587
+      ti_request: 1
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 1
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 1
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 1
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 1
+      drl_request: 2
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 1
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 1
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+
+ti_with_po2_test_case:
+    - testCaseID: systss-3600
+      toCoverID: systs-3600
+      ti_request: 0
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3601
+      toCoverID: systs-3601
+      ti_request: 1
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3602
+      toCoverID: systs-3602
+      ti_request: 0
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3603
+      toCoverID: systs-3603
+      ti_request: 1
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10589
+      toCoverID: systs-10589
+      ti_request: 0
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10590
+      toCoverID: systs-10590
+      ti_request: 1
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 2
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 2
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+
+ti_with_po3_test_case:
+    - testCaseID: systss-3607
+      toCoverID: systs-3607
+      ti_request: 0
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3608
+      toCoverID: systs-3608
+      ti_request: 1
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3609
+      toCoverID: systs-3609
+      ti_request: 0
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3610
+      toCoverID: systs-3610
+      ti_request: 1
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10591
+      toCoverID: systs-10591
+      ti_request: 0
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10592
+      toCoverID: systs-10592
+      ti_request: 1
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 3
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 3
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+
+ti_with_po4_test_case:
+    - testCaseID: systss-8872
+      toCoverID: systs-8872
+      ti_request: 0
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8873
+      toCoverID: systs-8873
+      ti_request: 1
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8874
+      toCoverID: systs-8874
+      ti_request: 0
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-8875
+      toCoverID: systs-8875
+      ti_request: 1
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10593
+      toCoverID: systs-10593
+      ti_request: 0
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10594
+      toCoverID: systs-10594
+      ti_request: 1
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 4
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 4
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+
+ti_with_po1234_test_case:
+    - testCaseID: systss-8879
+      toCoverID: systs-8879
+      ti_request: 0
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8879
+      toCoverID: systs-8879
+      ti_request: 0
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8879
+      toCoverID: systs-8879
+      ti_request: 0
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8879
+      toCoverID: systs-8879
+      ti_request: 0
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8880
+      toCoverID: systs-8880
+      ti_request: 1
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8880
+      toCoverID: systs-8880
+      ti_request: 1
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8880
+      toCoverID: systs-8880
+      ti_request: 1
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8880
+      toCoverID: systs-8880
+      ti_request: 1
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-8881
+      toCoverID: systs-8881
+      ti_request: 0
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-8881
+      toCoverID: systs-8881
+      ti_request: 0
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-8881
+      toCoverID: systs-8881
+      ti_request: 0
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-8881
+      toCoverID: systs-8881
+      ti_request: 0
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-8882
+      toCoverID: systs-8882
+      ti_request: 1
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+
+    - testCaseID: systss-8882
+      toCoverID: systs-8882
+      ti_request: 1
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-8882
+      toCoverID: systs-8882
+      ti_request: 1
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+
+    - testCaseID: systss-8882
+      toCoverID: systs-8882
+      ti_request: 1
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10595
+      toCoverID: systs-10595
+      ti_request: 0
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10595
+      toCoverID: systs-10595
+      ti_request: 0
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10595
+      toCoverID: systs-10595
+      ti_request: 0
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10595
+      toCoverID: systs-10595
+      ti_request: 0
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10596
+      toCoverID: systs-10596
+      ti_request: 1
+      drl_x: 1
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10596
+      toCoverID: systs-10596
+      ti_request: 1
+      drl_x: 2
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10596
+      toCoverID: systs-10596
+      ti_request: 1
+      drl_x: 3
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10596
+      toCoverID: systs-10596
+      ti_request: 1
+      drl_x: 4
+      drl_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 1
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 1
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 2
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 3
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3593
+      toCoverID: systs-3593
+      ti_request: 0
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3594
+      toCoverID: systs-3594
+      ti_request: 1
+      drl_x: 4
+      drl_request: 2
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 1
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 1
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3595
+      toCoverID: systs-3595
+      ti_request: 0
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3596
+      toCoverID: systs-3596
+      ti_request: 1
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 1
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 1
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 2
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 2
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 3
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 3
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10585
+      toCoverID: systs-10585
+      ti_request: 0
+      drl_x: 4
+      drl_request: 0
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-10586
+      toCoverID: systs-10586
+      ti_request: 1
+      drl_x: 4
+      drl_request: 2
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+
+# animtion_request；1；welcome, 2:prepare, 0:farewell
+# drl_x： 5：during animation
+ti_with_animation_test_case:
+
+    - testCaseID: systss-527
+      toCoverID: systs-527
+      ti_request: 1
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-529
+      toCoverID: systs-529
+      ti_request: 2
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Static_TI
+
+    - testCaseID: systss-3985
+      toCoverID: systs-3985
+      ti_request: 3
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Static_TI
+
+    -
+      testCaseID: systss-528
+      toCoverID: systs-528
+      ti_request: 1
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-3957
+      toCoverID: systs-3957
+      ti_request: 2
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-
+      toCoverID: systs-
+      ti_request: 3
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Sequential_TI_Section_10
+        - Sequential_TI_Section_11
+        - Sequential_TI_Section_13
+
+    - testCaseID: systss-8068
+      toCoverID: systs-8068
+      ti_request: 1
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-
+      toCoverID: systs-
+      ti_request: 2
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+    - testCaseID: systss-
+      toCoverID: systs-
+      ti_request: 3
+      drl_x: 5
+      animation_request: 1
+      ti_type:
+        - Channel_Sequential_TI_1
+        - Channel_Sequential_TI_2
+        - Channel_Sequential_TI_3
+
+#    - testCaseID: systss-
+#      toCoverID: systs-
+#      ti_request: 0
+#      drl_x: 1
+#      drl_request: 0
+#      ti_type:
+#        - Sequential_TI_Section_10
+#        - Sequential_TI_Section_11
+#        - Sequential_TI_Section_13
+#
+
